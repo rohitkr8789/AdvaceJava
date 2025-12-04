@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  color:white;
+}
+u{
+color:red;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 40px 50px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  width: 500px;
+  text-align: left;
+}
+
+
+</style>
+<body>
+	<center>
+		<h1>
+			<u>Launch Product</u>
+			<form action="aps" method="Post">
+				Product Code <input type="text" name="pcode"><br>
+				 Product name <input type="text" name="pname"><br>
+				 Product Company <input type="text" name="pcom"><br>
+				 Product Price <input type="text" name="pprice"><br>
+				 Product Quantity <input type="text" name="pqty"><br>
+				<br>
+				<input type="submit" value="Add Product" class="btn">
+			</form>
+		</h1>
+</body>
+</html>
